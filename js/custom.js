@@ -100,7 +100,7 @@
 		var idIterval9 = setInterval(function(){
 		  progreso9 +=1;
 		  $('#angular').css('width', progreso9 + '%');
-		  if(progreso9 == 20){
+		  if(progreso9 == 40){
 		    clearInterval(idIterval9);
 			  }
 			},10);
@@ -108,16 +108,16 @@
 		var idIterval10 = setInterval(function(){
 		  progreso10 +=1;
 		  $('#laravel').css('width', progreso10 + '%');
-		  if(progreso10 == 10){
+		  if(progreso10 == 35){
 		    clearInterval(idIterval10);
 			  }
 			},10);
 
-		var idIterval10 = setInterval(function(){
-		  progreso10 +=1;
-		  $('#mdb').css('width', progreso10 + '%');
-		  if(progreso10 == 50){
-		    clearInterval(idIterval10);
+		var idIterval17 = setInterval(function(){
+		  progreso17 +=1;
+		  $('#mdb').css('width', progreso17 + '%');
+		  if(progreso17 == 50){
+		    clearInterval(idIterval17);
 			  }
 			},10);
 
