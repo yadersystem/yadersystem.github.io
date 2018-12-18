@@ -1,5 +1,5 @@
 <?php 
- 	$nombre=$_POST['nombre'];
+ 	/*$nombre=$_POST['nombre'];
  	$correo=$_POST['correo'];
 	$mensaje=$_POST['mensaje'];
 
@@ -7,6 +7,8 @@
 		echo "Mensaje Enviado";
 	} else {
 		echo "Error al enviar mensaje";
-	}
+	}*/
+
+	echo "Hola Jader";
 	
  ?>
