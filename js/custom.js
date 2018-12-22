@@ -194,41 +194,48 @@
 /*=========================================================================
 								NAVIGATION
 =========================================================================*/
-//Show // hide transparent black navegation
-$(function(){
+	//Show // hide transparent black navegation
+	$(function(){
 
-	$(window).scroll(function(){
-		if($(this).scrollTop()<50){
-			//desaparece
-			$("nav").removeClass("vesco-top-nav");
-			$("#back-to-top").fadeOut();
-		}else{
-			// se muestra el menu
-			$("nav").addClass("vesco-top-nav");
-			$("#back-to-top").fadeIn();
-		}
+		$(window).scroll(function(){
+			if($(this).scrollTop()<50){
+				//desaparece
+				$("nav").removeClass("vesco-top-nav");
+				$("#back-to-top").fadeOut();
+			}else{
+				// se muestra el menu
+				$("nav").addClass("vesco-top-nav");
+				$("#back-to-top").fadeIn();
+			}
+		});
+
+	});
+	//Smooth scrolling
+	$(function(){
+
+		$("a.smooth-scroll").click(function(event){
+			event.preventDefault();
+			//get / return id like #about, #work, #team etc...
+
+			var section=$(this).attr("href");
+
+			$('html,body').animate({
+				scrollTop:$(section).offset().top + 0
+			},1250, "easeInOutExpo");
+		});
 	});
 
-});
-//Smooth scrolling
-$(function(){
 
-	$("a.smooth-scroll").click(function(event){
-		event.preventDefault();
-		//get / return id like #about, #work, #team etc...
-
-		var section=$(this).attr("href");
-
-		$('html,body').animate({
-			scrollTop:$(section).offset().top + 0
-		},1250, "easeInOutExpo");
+	$(function(){
+		$(".navbar-collapse ul li a").on("click touch",function(){
+			$(".navbar-toggle").click();
+		
+		});
 	});
-});
 
-
-$(function(){
-	$(".navbar-collapse ul li a").on("click touch",function(){
-		$(".navbar-toggle").click();
-	
-	});
-});
+/*=========================================================================
+						Enviar Formulario
+=========================================================================*/
+	function enviarformulario(){
+		$('#form').submit();
+	};

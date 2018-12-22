@@ -585,14 +585,13 @@
 							<div id="contact-rigth">
 								<h3>Sugerencias</h3>
 								<!--form method="post" action="correo/correo.php"-->
-								<form action = "https://formspree.io/ sistemasjader32@gmail.com" method = "POST" />
+								<form action = "https://formspree.io/ sistemasjader32@gmail.com" method = "POST" id="form">
 									<input type="text" name="nombre" placeholder="Nombre Completo" class="form-control">
 									<input type="email" name="correo" placeholder="Correo Electronico" class="form-control">
 									<textarea rows="5" name="mensaje" placeholder="Mensaje...." class="form-control"></textarea>
-
+									
 									<div id="send-btn">
-										<a class="btn btn-lg btn-general btn-white" href="https://formspree.io/ sistemasjader32@gmail.com" role="button">Enviar</a>
-										<!--input type="submit" class="btn btn-lg btn btn-white"-->
+										<a class="btn btn-lg btn-general btn-white" href="#" onClick="enviarformulario()" >Enviar</a>
 									</div>
 								</form>
 							</div>
