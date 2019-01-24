@@ -225,13 +225,28 @@
 		});
 	});
 
-
-	$(function(){
+	/************ Recoje el menu de despliegue *************/
+	/*$(function(){
 		$(".navbar-collapse ul li a").on("click touch",function(){
 			$(".navbar-toggle").click();
 		
 		});
-	});
+	});*/
+
+	/*$(function(){
+		$("#colapsar").on("click touch",function(){
+			$("#collapseOne").click();
+		});
+	});*/
+
+	/*$('#colapsar').click(function() {
+	  $('#collapseOne').collapse('toggle');
+	});*/
+
+	/*$('#myCollapsible').collapse({
+	  toggle: false
+	})
+	//$('.collapse').collapse()
 
 /*=========================================================================
 						Enviar Formulario
