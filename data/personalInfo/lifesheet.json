@@ -1,0 +1,22 @@
+[
+  {
+    "personalData": 
+      {
+        "name": "Jader Steve Yepez Diaz",
+        "dateBorn": "20/12/1985",
+        "nacionality": "ColomboVenezolano",
+        "hobbies" : "I like to play soccer and resolved problems of programer",
+        "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      }
+    ,
+    "profession":"Ingeniero de Sistemas",
+    "trabajos":[ 
+      {
+        "name": "trabajo 1"
+      },
+      {
+        "name": "trabajo 2"
+      }
+    ]
+  }
+]

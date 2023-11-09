@@ -113,13 +113,13 @@
 			  }
 			},10);
 
-		var idIterval17 = setInterval(function(){
+		/*var idIterval17 = setInterval(function(){
 		  progreso17 +=1;
 		  $('#mdb').css('width', progreso17 + '%');
 		  if(progreso17 == 50){
 		    clearInterval(idIterval17);
 			  }
-			},10);
+			},10);*/
 
 		var idIterval11 = setInterval(function(){
 		  progreso11 +=1;
