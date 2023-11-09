@@ -190,7 +190,7 @@
 	.btn-back-to-top{
 		position: fixed;
 		bottom: 20px;
-		right: 20px;
+		right: 2px;
 		font-size: 22px;
 		padding: 3px 15px;
 		border-radius: 0;
